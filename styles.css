@@ -1,0 +1,27 @@
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.cuadro {
+    background-color: #f0f0f0;
+    padding: 50px;
+    border: 20px solid #fffcfc;
+    width: calc(50% - 50px); 
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+ul {
+    padding-left: 50px;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
