@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: -40px;
+}
+
+.cart img {
+    width: 30px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.product {
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.product p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+footer {
+    
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        background-color: #f8f8f8;
+        position: fixed; /* Fija el pie de página al fondo */
+        bottom: 0; /* Alinea el pie de página en la parte inferior */
+        left: 0;
+        width: 100%; /* Hace que el pie de página ocupe todo el ancho */
+        background-color: #89B8FF; /* Color azul del borde */
+    
+    
+}
+
+footer .social-media a {
+    margin: 0 10px;
+}
+
+footer .social-media img {
+    width: 30px;
+}
+.volver-button {
+    display: inline-block;
+    width: 8%;
+    padding: 10px;
+    margin-top: 15px; /* Espacio superior para separarlo del botón de login */
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
